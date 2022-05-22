@@ -15,9 +15,30 @@ a {
 }
 section {
   height: 40rem;
+  padding: 5%;
 }
 nav {
-  margin: 0, auto;
   background-image: url("BarBig.png");
+  position: fixed;
 }
-shit fuck
+.bar {
+  max-width: 100%;
+}
+.title {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  max-width: 6ch;
+}
+.subtitle {
+  line-height: 5ch;
+}
+.navigator {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+.wrapper {
+  display: flex;
+  max-width: 100%;
+}
