@@ -28,17 +28,26 @@ nav {
 }
 .title {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 10%;
   max-width: 6ch;
   text-indent: -2ch;
   font-size: 3ch;
   line-height: 2ch;
+  transition: all 0.2s ease-out;
+}
+.title:hover {
+  transform: translateY(-2px);
 }
 .subtitle {
   line-height: 6ch;
   font-size: 2ch;
   margin-right: 5%;
+  transition: all 0.2s ease-out;
+}
+.subtitle:hover {
+  text-decoration: underline;
+  transform: translateY(-2px);
 }
 .navigator {
   position: absolute;
@@ -49,13 +58,13 @@ nav {
 }
 .wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .loco {
   max-width: 60%;
   max-height: 60%;
   margin: 0 auto;
-  position: relative;
-  top: 10%;
 }
 .textBox {
   margin: 0 auto;
@@ -85,5 +94,15 @@ nav {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0);
+  font-family: "Manrope", sans-serif;
+  transition: all 0.2s ease-out;
+}
+.butt:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 10px;
+}
+.element {
+  max-width: 2ch;
+  margin-left: 3%;
 }
