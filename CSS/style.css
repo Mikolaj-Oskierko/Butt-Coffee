@@ -18,7 +18,7 @@ section {
   padding: 5%;
 }
 nav {
-  background-image: url("BarBig.png");
+  background-image: url("BarBig.svg");
   position: fixed;
 }
 .bar {
