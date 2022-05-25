@@ -5,7 +5,7 @@
 body {
   background-color: #4a4e69;
   color: #f2e9e4;
-  font-family: "Armata", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 a {
   text-decoration: none;
@@ -16,37 +16,74 @@ a {
 section {
   height: 40rem;
   padding: 5%;
+  padding-top: 10%;
 }
 nav {
   background-image: url("BarBig.svg");
   position: fixed;
+  z-index: 10;
 }
 .bar {
   max-width: 100%;
 }
 .title {
   position: absolute;
-  top: 25%;
-  left: 5%;
+  top: 40%;
+  left: 10%;
   max-width: 6ch;
+  text-indent: -2ch;
+  font-size: 3ch;
+  line-height: 2ch;
 }
 .subtitle {
-  line-height: 5ch;
-  font-size: 1ch;
+  line-height: 6ch;
+  font-size: 2ch;
+  margin-right: 5%;
 }
 .navigator {
   position: absolute;
   top: 15%;
   left: 50%;
+  display: block;
+  width: 50%;
 }
 .wrapper {
   display: flex;
-  max-width: 100%;
 }
 .loco {
-  max-width: 30%;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+}
+.textBox {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  justify-content: center;
+  align-items: center;
+  max-height: 70%;
+  max-width: 25%;
 }
 .text {
-  text-indent: 2ch;
   padding: 5%;
+  text-align: center;
+}
+.slogan {
+  max-width: 6ch;
+  font-size: 3ch;
+  line-height: 2.5ch;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+.butt {
+  padding: 2%;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid white;
 }
