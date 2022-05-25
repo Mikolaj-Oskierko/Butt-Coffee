@@ -32,6 +32,7 @@ nav {
 }
 .subtitle {
   line-height: 5ch;
+  font-size: 1ch;
 }
 .navigator {
   position: absolute;
@@ -41,4 +42,11 @@ nav {
 .wrapper {
   display: flex;
   max-width: 100%;
+}
+.loco {
+  max-width: 30%;
+}
+.text {
+  text-indent: 2ch;
+  padding: 5%;
 }
